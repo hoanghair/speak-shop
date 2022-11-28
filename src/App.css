@@ -1,0 +1,55 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.row > * {
+  padding-right: 0 !important;
+  padding-left: 0;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.row {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
